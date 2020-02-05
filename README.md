@@ -66,7 +66,7 @@ bool operator < (const User & t1,const User & t2) // 按 id 比较大小
 AVL树是用模板类实现的，这样就可以直接比较两个用户类，方便了很多。
 
 ### 程序流程
-![程序流程](.\image\程序流程.png)
+![程序流程](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B.png)
 ### 类间关系
 
 
