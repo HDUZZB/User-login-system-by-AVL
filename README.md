@@ -3,11 +3,10 @@
 该项目模拟了一个用户登录系统。可用在登录服务器系统时验证用户名和密码(如`telnet`远程登录服务器)。
 
 ****
-	
+
 |Author|HDUZZB|
 |---|---
 |E-mail|hduzzb@126.com
-
 
 ****
 ## 目录
@@ -66,9 +65,9 @@ bool operator < (const User & t1,const User & t2) // 按 id 比较大小
 AVL树是用模板类实现的，这样就可以直接比较两个用户类，方便了很多。
 
 ### 程序流程
-![程序流程](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B.png)
+![程序流程](image/%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B.png)
 ### 类间关系
-![类间关系](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E7%B1%BB%E9%97%B4%E5%85%B3%E7%B3%BB.png)
+![类间关系](image/%E7%B1%BB%E9%97%B4%E5%85%B3%E7%B3%BB.png)
 
 测试
 ----------
@@ -79,50 +78,55 @@ AVL树是用模板类实现的，这样就可以直接比较两个用户类，�
 ### 功能测试
 #### 添加用户
 注意：用户名要求只有字母或数字
-![添加用户](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/1.jpg)
+![添加用户](/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/1.jpg)
+
 #### 删除用户
 注意：删除用户是也需要密码
-![删除用户](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/2.jpg)
+![删除用户](/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/2.jpg)
+
 #### 用户登陆
 注意：密码错误三次会自动跳到上一层
-![用户登陆](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/3.jpg)
-![用户登陆](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/4.jpg)
+![用户登陆](/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/3.jpg)
+![用户登陆](/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/4.jpg)
+
 #### 修改密码
-![修改密码](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/5.jpg)
+![修改密码](/image/%E6%AD%A3%E5%90%91%E6%B5%8B%E8%AF%95/5.jpg)
 
 ### 异常测试
 #### 用户名不能重复
-![用户名不能重复](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/1.jpg)
+![用户名不能重复](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/1.jpg)
 #### 用户名不能包含非法字符
-![用户名不能包含非法字符](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/2.jpg)
+![用户名不能包含非法字符](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/2.jpg)
 #### 注册新用户，两次密码要相同
-![注册新用户，两次密码要相同](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/3.jpg)
+![注册新用户，两次密码要相同](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/3.jpg)
 #### 只能删除存在的用户
-![只能删除存在的用户](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/4.jpg)
+![只能删除存在的用户](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/4.jpg)
 #### 删除用户是也要输入密码
-![删除用户是也要输入密码](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/5.jpg)
+![删除用户是也要输入密码](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/5.jpg)
 #### 登录时，用户名要合法
-![登录时，用户名要合法](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/6.jpg)
+![登录时，用户名要合法](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/6.jpg)
 #### 登陆时密码要正确
-![登陆时密码要正确](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/7.jpg)
+![登陆时密码要正确](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/7.jpg)
 #### 修改密码时要和原密码不相同
-![修改密码时要和原密码不相同](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/8.jpg)
+![修改密码时要和原密码不相同](/image/%E5%BC%82%E5%B8%B8%E6%B5%8B%E8%AF%95/8.jpg)
 
 ### 验证AVL树
 #### 初始阶段
-![初始阶段](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/1.jpg)
+![初始阶段](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/1.jpg)
 #### 加入节点 a 右旋
-![加入节点 a 右旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/2.jpg)
+![加入节点 a 右旋](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/2.jpg)
 #### 加入节点 x , y 左旋
-![加入节点 x , y 左旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/3.jpg)
-![加入节点 x , y 左旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/4.jpg)
+![加入节点 x , y 左旋](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/3.jpg)
+![加入节点 x , y 左旋](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/4.jpg)
+
 #### 加入节点 q 右左旋
-![加入节点 q 右左旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/5.jpg)
+![加入节点 q 右左旋](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/5.jpg)
 #### 加入节点 d ，k 左右旋
-![加入节点 d ，k 左右旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/6.jpg)
-![加入节点 d ，k 左右旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/7.jpg)
+![加入节点 d ，k 左右旋](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/6.jpg)
+![加入节点 d ，k 左右旋](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/7.jpg)
+
 #### 删除节点 c
-![删除节点 c](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/8.jpg)
+![删除节点 c](/image/AVL%E6%A0%91%E9%AA%8C%E8%AF%81/8.jpg)
 
 项目重难点
 ----------
@@ -203,13 +207,13 @@ void AVL<T>::insert(const T& item) // 加入节点 item
 AVL树相对于BST树，多了平衡两字，树都有高度，而AVL树就是要求每一个节点的左子树和右子树的高度差不超过1，这样就能使其尽可能的减小整棵树的高度，使时间复杂度能稳定在O(logN), 但我们不可能去约束用户的输入，因此，引入了四种旋转：左旋、右旋、先右旋再左旋、先左旋后右旋。
 ***
 #### 左旋
-![左旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%B7%A6%E6%97%8B.png)
+![左旋](/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%B7%A6%E6%97%8B.png)
 #### 右旋
-![右旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%8F%B3%E6%97%8B.png)
+![右旋](/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%8F%B3%E6%97%8B.png)
 #### 先右旋再左旋
-![先右旋再左旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%85%88%E5%8F%B3%E6%97%8B%E5%86%8D%E5%B7%A6%E6%97%8B.png)
+![先右旋再左旋](/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%85%88%E5%8F%B3%E6%97%8B%E5%86%8D%E5%B7%A6%E6%97%8B.png)
 #### 先左旋后右旋
-![先左旋后右旋](https://github.com/HDUZZB/User-login-system-by-AVL/blob/master/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%85%88%E5%B7%A6%E6%97%8B%E5%86%8D%E5%8F%B3%E6%97%8B.png)
+![先左旋后右旋](/image/AVL%E6%A0%91%E6%97%8B%E8%BD%AC/%E5%85%88%E5%B7%A6%E6%97%8B%E5%86%8D%E5%8F%B3%E6%97%8B.png)
 ***
 以下是左-右旋的代码：
 ```cpp
